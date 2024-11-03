@@ -548,7 +548,6 @@ class MPVActivity : AppCompatActivity(), MPVLib.EventObserver, TouchGesturesObse
         stopServiceHandler.postDelayed(stopServiceRunnable, 1000L)
 
         refreshUi()
-
         super.onResume()
     }
 
